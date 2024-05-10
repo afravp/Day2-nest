@@ -1,0 +1,23 @@
+.container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+.left-side {
+    flex: 1; /* Take up 50% of the container width */
+    padding-right: 20px; /* Optional: Add spacing between image and text */
+}
+
+.right-side {
+    flex: 1; /* Take up 50% of the container width */
+}
+.center{
+    text-align: center;
+}
+.left{
+    flex: 1; /* Take up 50% of the container width */
+}
+.right{
+    flex: 1; /* Take up 50% of the container width */
+    padding-right: 20px; /* Optional: Add spacing between image and text */
+} 
